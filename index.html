@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>AG News Classifier</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- ONNX Runtime Web -->
+  <script src="https://cdn.jsdelivr.net/npm/onnxruntime-web/dist/ort.min.js"></script>
+  <!-- Transformers.js -->
+  <script type="module" src="script.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>AG News Classifier</h1>
+    <textarea id="newsInput" placeholder="Enter news text here..."></textarea>
+    <button id="classifyBtn">Classify</button>
+    <h2>Predicted Category: <span id="result">None</span></h2>
+  </div>
+</body>
+</html>
